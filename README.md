@@ -5,7 +5,7 @@ This system is a hybrid engine designed to transform technical topics into high-
 ## 🛠️ System Architecture
 1. **Planning (LLM):** Uses Llama 3.3 70B via Groq to analyze the topic and generate a 30s+ technical script and visual blueprint.
 2. **Narration (Neural TTS):** Converts the script into a professional male voice using `edge-tts` with a -15% speed rate for clarity.
-3. **Synthesis (Manim):** A robust Python engine reads the AI-generated JSON and renders a 1080p MP4.
+3. **Synthesis ffmpeg (Manim):** A robust Python engine reads the AI-generated JSON and renders a 1080p MP4.
 
 ## 🚀 Key Features
 - **Bi-Directional Traffic:** Visualizes "Ping-Pong" (Request-Response) cycles or continuous streams.
