@@ -15,5 +15,5 @@ This system is a hybrid engine designed to transform technical topics into high-
 
 ## 🏃 Setup & Execution
 1. **Environment:** Add your `GROQ_API_KEY` to a `.env` file.
-2. **Install Deps:** `pip install manim langchain-groq edge-tts mutagen python-dotenv`
+2. **Install Deps:** `pip install -r requirements.txt`
 3. **Run:** `python generate_video.py`
