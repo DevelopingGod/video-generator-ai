@@ -51,7 +51,7 @@ class SubtitleBar(VGroup):
     def __init__(self, text):
         super().__init__()
         self.bg = Rectangle(height=1.2, width=12, fill_color=BLACK, fill_opacity=0.8, stroke_width=0)
-        self.text = Paragraph(text, font="Arial", font_size=32, color=WHITE, alignment="center")
+        self.text = Paragraph(text, font="Arial", font_size=68, color=WHITE, alignment="center")
         if self.text.width > 11: self.text.scale_to_fit_width(11)
         self.text.move_to(self.bg.get_center())
         self.add(self.bg, self.text)
