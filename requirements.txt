@@ -1,0 +1,7 @@
+manim
+langchain-groq
+python-dotenv
+gtts
+pydub
+edge-tts asyncio
+mutagen edge-tts

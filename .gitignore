@@ -1,0 +1,19 @@
+# Private Environment Variables
+.env
+
+# Manim Render Outputs
+media/
+generated_scene.py
+scene_data.json
+
+# Audio Files
+narrator.mp3
+narrator.wav
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# OS Files
+.DS_Store
+Thumbs.db
